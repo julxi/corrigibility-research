@@ -5,6 +5,11 @@
 convos/*/private/
 convos/*/private
 
+# Reference originals (PDF, saved HTML) stay local; README.md says how to re-download them.
+# The derived .md versions and figures are tracked.
+references/**/*.pdf
+references/**/*.html
+
 # Working files of the error-injection review procedure (docs/procedures/code_review.md)
 scratch/
 

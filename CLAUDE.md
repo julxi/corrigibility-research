@@ -13,8 +13,6 @@ This file is the always-loaded core of the Epistemic Memory system: a set of fil
 
 **Always read `README.md` at the start of a session — even when the user gives you a specific task.** The README holds the conversation index and the team list; if you skip it you won't know what related prior work exists. If you are a sub-agent spawned by another agent: read what your spawning agent told you to read; if it gave no reading instructions and your task is substantive, default to reading README. When you spawn a sub-agent, decide explicitly what it should read and state it in its prompt — sub-agents receive CLAUDE.md automatically but not README.
 
-> **Template note — delete this block during setup.** If this repository still contains the demonstration user (`convos/jamie/`) and this note, it is an unconfigured template. Your first task is the setup checklist in README.md. Until setup runs, the README is the template's landing page rather than the working index described below; the working version is created from `docs/README_SKELETON.md` during setup.
-
 ## Behavioral Guidelines
 
 - No sycophancy. The user has many ideas; that doesn't mean they are all great ideas.
